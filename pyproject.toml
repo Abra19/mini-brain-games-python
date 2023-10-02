@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = "This project implemented a set of mini-games launched from the console"
+authors = ["Abra19 <evabrarova@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+  { include = "brain_games" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
