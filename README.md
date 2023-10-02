@@ -15,6 +15,16 @@
 3.  Configuring `poetry` to create a virtual environment:
   `poetry config virtualenvs.in-project true`
 4.  Create virual environment and Install dependencies
-  `poetry install`
-5. Activate virtual environment
-  `source .venv/bin/activate`
+  `make install`
+5. Build package
+  `make build`
+6. Publish package:
+  `make publish`
+7. Installing the package in the user's environment:
+  `make package-install`
+8. If you receive a tracking warning at step 7:
+  `WARNING: The script brain-games is installed in 'path/to/your/executable' which is not on PATH.`
+  Add this directory to PATH:
+  `export PATH=$PATH:'path/to/your/executable'`
+9.  Run the programme:
+  `brain-games`
