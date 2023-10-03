@@ -33,8 +33,10 @@ This project implemented a set of mini-games launched from the console:
   `export PATH=$PATH:'path/to/your/executable'`
 
 ### To Run
-Install and run `brain-games` for Welcome message:
+Install package and run `brain-games` for welcome message:
 [![asciicast](https://asciinema.org/a/4YrcE5Nbsc3i7gNtZzAlJ7YRZ.svg)](https://asciinema.org/a/4YrcE5Nbsc3i7gNtZzAlJ7YRZ)
 
-Parity game:
-  `brain-even`
+Run `brain-even` for parity game:
+[![asciicast](https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7.svg)](https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7)
+
+https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7
