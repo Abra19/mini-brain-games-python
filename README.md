@@ -5,7 +5,11 @@
 
 ### Descriptions
 This project implemented a set of mini-games launched from the console:
-  * check is number even
+  * check is the number even
+  * make calculation
+  * find great common divisor
+  * find hidden element of the progression
+  * check is the number prime
   
 ### Requirements
 1. Python >=3.8.1
@@ -34,17 +38,25 @@ This project implemented a set of mini-games launched from the console:
 
 ### To Run
 Install package and run `brain-games` for welcome message:
+
 [![asciicast](https://asciinema.org/a/4YrcE5Nbsc3i7gNtZzAlJ7YRZ.svg)](https://asciinema.org/a/4YrcE5Nbsc3i7gNtZzAlJ7YRZ)
 
-Run `brain-even` for parity game:
+Run `brain-even` for check is the number even:
+
 [![asciicast](https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7.svg)](https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7)
 
-
 Run `brain-calc` for calculations:
+
 [![asciicast](https://asciinema.org/a/pKNBygPkjJcvsDwaWMu6CpRTI.svg)](https://asciinema.org/a/pKNBygPkjJcvsDwaWMu6CpRTI)
 
 Run `brain-gcd` to find great common divisor:
+
 [![asciicast](https://asciinema.org/a/8LPsUDcVlgkNjZhpQP36dnF3r.svg)](https://asciinema.org/a/8LPsUDcVlgkNjZhpQP36dnF3r)
 
 Run `brain-progression` to find hidden progression's element:
+
 [![asciicast](https://asciinema.org/a/5dE0giEiPky7linHbrJptGDER.svg)](https://asciinema.org/a/5dE0giEiPky7linHbrJptGDER)
+
+Run `brain-prime` for check is the number prime:
+
+[![asciicast](https://asciinema.org/a/e5TMRm4iDH6ro01CbjDrINfnF.svg)](https://asciinema.org/a/e5TMRm4iDH6ro01CbjDrINfnF)
