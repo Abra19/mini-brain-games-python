@@ -5,7 +5,7 @@
 
 ### Descriptions
 This project implemented a set of mini-games launched from the console:
-  * check is number even?
+  * check is number even
   
 ### Requirements
 1. Python >=3.8.1
@@ -39,4 +39,6 @@ Install package and run `brain-games` for welcome message:
 Run `brain-even` for parity game:
 [![asciicast](https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7.svg)](https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7)
 
-https://asciinema.org/a/UBf9qlfEAsyu7HymqeVDfIBp7
+
+Run `brain-calc` for calculations:
+[![asciicast](https://asciinema.org/a/pKNBygPkjJcvsDwaWMu6CpRTI.svg)](https://asciinema.org/a/pKNBygPkjJcvsDwaWMu6CpRTI)
