@@ -4,9 +4,9 @@
 
 
 ### Requirements
-1. Python > 3.6
-2. pip > 19
-3. poetry > 1.2.0
+1. Python >=3.8.1
+2. pip >= 19
+3. poetry >= 1.2.0
 
 ### To get started
 1. Clone git repo:
