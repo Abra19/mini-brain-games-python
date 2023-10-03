@@ -14,13 +14,13 @@ get_operator = {
 
 
 def generate_round():
-    random_number_a = random.randint(0, MAX_NUMBER)
-    random_number_b = random.randint(0, MAX_NUMBER)
+    number_a = random.randint(0, MAX_NUMBER)
+    number_b = random.randint(0, MAX_NUMBER)
     random_operation = OPERATIONS[random.randint(0, len(OPERATIONS) - 1)]
 
-    question = f'{random_number_a} {random_operation} {random_number_b}'
+    question = f'{number_a} {random_operation} {number_b}'
     operation = get_operator(random_operation)
-    answer = str(operation(random_number_a, random_number_b))
+    answer = str(operation(number_a, number_b))
     return (question, answer)
 
 

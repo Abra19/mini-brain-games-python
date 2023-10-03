@@ -11,8 +11,8 @@ def is_even(number):
 
 
 def generate_round():
-    random_number = random.randint(0, MAX_NUMBER)
-    return (random_number, 'yes' if is_even(random_number) else 'no')
+    number = random.randint(0, MAX_NUMBER)
+    return (number, 'yes' if is_even(number) else 'no')
 
 
 def run_game():
