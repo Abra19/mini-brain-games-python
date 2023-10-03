@@ -1,6 +1,10 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Abra19/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Abra19/python-project-49/actions)
 
+### Maintainability:
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/f9b2728037c913a8c25c/maintainability)](https://codeclimate.com/github/Abra19/python-project-49/maintainability)
+
 
 ### Requirements
 1. Python > 3.6
