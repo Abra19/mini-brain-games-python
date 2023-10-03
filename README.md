@@ -3,6 +3,10 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/f9b2728037c913a8c25c/maintainability)](https://codeclimate.com/github/Abra19/python-project-49/maintainability)
 
 
+### Descriptions
+This project implemented a set of mini-games launched from the console:
+  * check is number even?
+  
 ### Requirements
 1. Python >=3.8.1
 2. pip >= 19
@@ -27,5 +31,10 @@
   `WARNING: The script brain-games is installed in 'path/to/your/executable' which is not on PATH.`
   Add this directory to PATH:
   `export PATH=$PATH:'path/to/your/executable'`
-9.  Run the programme:
-  `brain-games`
+
+### To Run
+Install and run `brain-games` for Welcome message:
+[![asciicast](https://asciinema.org/a/4YrcE5Nbsc3i7gNtZzAlJ7YRZ.svg)](https://asciinema.org/a/4YrcE5Nbsc3i7gNtZzAlJ7YRZ)
+
+Parity game:
+  `brain-even`
