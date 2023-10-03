@@ -42,3 +42,6 @@ Run `brain-even` for parity game:
 
 Run `brain-calc` for calculations:
 [![asciicast](https://asciinema.org/a/pKNBygPkjJcvsDwaWMu6CpRTI.svg)](https://asciinema.org/a/pKNBygPkjJcvsDwaWMu6CpRTI)
+
+Run `brain-gcd` for find great common divisor:
+[![asciicast](https://asciinema.org/a/8LPsUDcVlgkNjZhpQP36dnF3r.svg)](https://asciinema.org/a/8LPsUDcVlgkNjZhpQP36dnF3r)
