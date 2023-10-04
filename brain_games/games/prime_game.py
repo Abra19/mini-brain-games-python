@@ -1,10 +1,8 @@
 import random
 import math
-from brain_games.games.games_engine import launch_game
-from brain_games.games.games_constants import MAX_NUMBER
 
 
-game_rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -18,9 +16,10 @@ def is_prime(number):
 
 
 def generate_round():
+    MAX_NUMBER = 100
+
     number = random.randint(0, MAX_NUMBER)
     return (number, 'yes' if is_prime(number) else 'no')
 
 
-def run_game():
-    launch_game(generate_round, game_rules)
+game = {'description': DESCRIPTION, 'generate_round': generate_round}

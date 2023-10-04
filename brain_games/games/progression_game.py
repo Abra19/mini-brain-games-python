@@ -1,11 +1,7 @@
 import random
-from brain_games.games.games_engine import launch_game
-from brain_games.games.games_constants import MAX_NUMBER, \
-    MAX_PROGRESSION_LENGTH, MIN_PROGRESSION_LENGTH, \
-    MAX_PROGRESSION_STEP, MIN_PROGRESSION_STEP
 
 
-game_rules = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def makeProgression(length, first, step):
@@ -22,6 +18,14 @@ def generate_question(progression, index):
 
 
 def generate_round():
+    MAX_NUMBER = 100
+
+    MAX_PROGRESSION_LENGTH = 10
+    MIN_PROGRESSION_LENGTH = 5
+
+    MIN_PROGRESSION_STEP = 1
+    MAX_PROGRESSION_STEP = 50
+
     length = random.randint(MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH)
     first_element = random.randint(0, MAX_NUMBER)
     step = random.randint(MIN_PROGRESSION_STEP, MAX_PROGRESSION_STEP)
@@ -32,5 +36,4 @@ def generate_round():
     return (question, answer)
 
 
-def run_game():
-    launch_game(generate_round, game_rules)
+game = {'description': DESCRIPTION, 'generate_round': generate_round}

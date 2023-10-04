@@ -1,10 +1,9 @@
 import random
 import operator
-from brain_games.games.games_engine import launch_game
-from brain_games.games.games_constants import MAX_NUMBER, OPERATIONS
 
 
-game_rules = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
+
 
 get_operator = {
     '+': operator.add,
@@ -14,6 +13,9 @@ get_operator = {
 
 
 def generate_round():
+    MAX_NUMBER = 100
+    OPERATIONS = ['+', '-', '*']
+
     number_a = random.randint(0, MAX_NUMBER)
     number_b = random.randint(0, MAX_NUMBER)
     random_operation = OPERATIONS[random.randint(0, len(OPERATIONS) - 1)]
@@ -24,5 +26,4 @@ def generate_round():
     return (question, answer)
 
 
-def run_game():
-    launch_game(generate_round, game_rules)
+game = {'description': DESCRIPTION, 'generate_round': generate_round}

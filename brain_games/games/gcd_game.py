@@ -1,9 +1,7 @@
 import random
-from brain_games.games.games_engine import launch_game
-from brain_games.games.games_constants import MAX_NUMBER
 
 
-game_rules = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(a, b):
@@ -11,6 +9,8 @@ def gcd(a, b):
 
 
 def generate_round():
+    MAX_NUMBER = 100
+
     number_a = random.randint(0, MAX_NUMBER)
     number_b = random.randint(0, MAX_NUMBER)
 
@@ -20,5 +20,4 @@ def generate_round():
     return (question, str(answer))
 
 
-def run_game():
-    launch_game(generate_round, game_rules)
+game = {'description': DESCRIPTION, 'generate_round': generate_round}

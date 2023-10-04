@@ -1,9 +1,7 @@
 import random
-from brain_games.games.games_engine import launch_game
-from brain_games.games.games_constants import MAX_NUMBER
 
 
-game_rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
@@ -11,9 +9,10 @@ def is_even(number):
 
 
 def generate_round():
+    MAX_NUMBER = 100
+
     number = random.randint(0, MAX_NUMBER)
     return (number, 'yes' if is_even(number) else 'no')
 
 
-def run_game():
-    launch_game(generate_round, game_rules)
+game = {'description': DESCRIPTION, 'generate_round': generate_round}
