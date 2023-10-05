@@ -18,6 +18,3 @@ def generate_round():
 
     answer = gcd(number_a, number_b)
     return (question, str(answer))
-
-
-game = {'description': DESCRIPTION, 'generate_round': generate_round}

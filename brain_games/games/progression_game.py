@@ -4,7 +4,7 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def makeProgression(length, first, step):
+def make_progression(length, first, step):
     result = []
     for i in range(length):
         result.append(str(first + i * step))
@@ -29,11 +29,8 @@ def generate_round():
     length = random.randint(MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH)
     first_element = random.randint(0, MAX_NUMBER)
     step = random.randint(MIN_PROGRESSION_STEP, MAX_PROGRESSION_STEP)
-    progression = makeProgression(length, first_element, step)
+    progression = make_progression(length, first_element, step)
     hidden_element_index = random.randint(0, length - 1)
     question = generate_question(progression, hidden_element_index)
     answer = progression[hidden_element_index]
     return (question, answer)
-
-
-game = {'description': DESCRIPTION, 'generate_round': generate_round}

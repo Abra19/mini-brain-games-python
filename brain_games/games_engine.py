@@ -8,10 +8,10 @@ def launch_game(game):
     print('Welcome to the Brain Games!')
     gamer_name = prompt.string('May I have your name? ')
     print(f'Hello, {gamer_name}!')
-    print(game.get('description'))
+    print(game.DESCRIPTION)
 
     for _ in range(ROUNDS_NUMBER):
-        question, answer = game.get('generate_round')()
+        question, answer = game.generate_round()
         print(f'Question: {question}')
         your_answer = prompt.string('Your answer: ')
 

@@ -24,6 +24,3 @@ def generate_round():
     operation = get_operator(random_operation)
     answer = str(operation(number_a, number_b))
     return (question, answer)
-
-
-game = {'description': DESCRIPTION, 'generate_round': generate_round}

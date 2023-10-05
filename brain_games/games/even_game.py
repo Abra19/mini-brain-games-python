@@ -13,6 +13,3 @@ def generate_round():
 
     number = random.randint(0, MAX_NUMBER)
     return (number, 'yes' if is_even(number) else 'no')
-
-
-game = {'description': DESCRIPTION, 'generate_round': generate_round}
