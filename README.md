@@ -18,9 +18,9 @@ This project implemented a set of mini-games launched from the console:
 
 ### To get started
 1. Clone git repo:
-  `git clone git@github.com:Abra19/python-project-49.git`
-2. Go to directory python-project-49:
-  `cd python-project-49`
+  `git clone git@github.com:Abra19/mini-brain-games-python.git`
+2. Go to directory mini-brain-games-python:
+  `cd mini-brain-games-python`
 3.  Configuring `poetry` to create a virtual environment:
   `poetry config virtualenvs.in-project true`
 4.  Create virual environment and Install dependencies
